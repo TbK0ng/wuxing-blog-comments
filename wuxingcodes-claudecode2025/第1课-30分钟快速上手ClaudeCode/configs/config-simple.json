@@ -1,5 +1,6 @@
 {
-  "model": "claude-3-5-sonnet-20241022",
+  "_comment": "ClaudeCode简化配置文件 v1.1 - 更新日期：2025-12-14",
+  "model": "claude-3-5-sonnet-20240620",
   "theme": "dark",
   "autoSave": true
 }

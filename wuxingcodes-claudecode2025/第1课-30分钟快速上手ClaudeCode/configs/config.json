@@ -1,5 +1,7 @@
 {
-  "model": "claude-3-5-sonnet-20241022",
+  "_comment": "ClaudeCode配置文件 v1.1 - 更新日期：2025-12-14",
+  "_model_version": "兼容ClaudeCode v2.0+",
+  "model": "claude-3-5-sonnet-20240620",
   "maxTokens": 4096,
   "temperature": 0.1,
   "topP": 0.95,

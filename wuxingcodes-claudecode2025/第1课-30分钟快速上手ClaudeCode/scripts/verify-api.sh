@@ -15,7 +15,7 @@ response=$(curl -s -w "%{http_code}" -o /dev/null \
     -H "x-api-key: $ANTHROPIC_API_KEY" \
     -H "content-type: application/json" \
     -d '{
-        "model": "claude-3-5-haiku-20241022",
+        "model": "claude-3-5-haiku-20240620",
         "max_tokens": 10,
         "messages": [{"role": "user", "content": "Hi"}]
     }' \

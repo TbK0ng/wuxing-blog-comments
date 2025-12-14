@@ -5,7 +5,7 @@ REM API密钥
 setx ANTHROPIC_API_KEY "sk-ant-xxx"
 
 REM 默认模型
-setx ANTHROPIC_DEFAULT_MODEL "claude-3-5-sonnet-20241022"
+setx ANTHROPIC_DEFAULT_MODEL "claude-3-5-sonnet-20240620"
 
 REM 缓存配置
 setx CLAUDE_CACHE_ENABLED "1"

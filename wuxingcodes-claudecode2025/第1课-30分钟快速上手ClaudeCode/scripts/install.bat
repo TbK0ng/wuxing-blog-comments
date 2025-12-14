@@ -25,12 +25,10 @@ if %errorlevel% equ 0 (
     echo ========================================
     echo.
     echo 下一步：
-    echo 1. 设置API密钥（可选，可稍后设置）
-    set /p api_key=请输入您的API密钥（sk-ant-开头，直接回车跳过）:
-    if not "%api_key%"=="" (
-        setx ANTHROPIC_API_KEY "%api_key%"
-        echo API密钥已设置
-    )
+    echo 1. 获取并设置API密钥
+    echo    访问：https://console.anthropic.com 获取您的API密钥
+    echo    然后运行：setx ANTHROPIC_API_KEY "您的密钥"
+    echo    重启命令行使设置生效
     echo.
     echo 2. 创建测试项目
     mkdir claude-test

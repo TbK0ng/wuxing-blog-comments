@@ -6,7 +6,7 @@ echo "设置ClaudeCode环境变量..."
 cat > ~/.claude-env << 'EOF'
 # ClaudeCode环境变量
 export ANTHROPIC_API_KEY="sk-ant-xxx"
-export ANTHROPIC_DEFAULT_MODEL="claude-3-5-sonnet-20241022"
+export ANTHROPIC_DEFAULT_MODEL="claude-3-5-sonnet-20240620"
 export CLAUDE_CACHE_ENABLED="1"
 export CLAUDE_CACHE_SIZE="1GB"
 export CLAUDE_LOG_LEVEL="info"

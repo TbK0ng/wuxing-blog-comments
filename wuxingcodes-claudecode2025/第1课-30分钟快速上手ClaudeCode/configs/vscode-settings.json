@@ -1,5 +1,5 @@
 {
-  "claudecode.model": "claude-3-5-sonnet-20241022",
+  "claudecode.model": "claude-3-5-sonnet-20240620",
   "claudecode.autoSave": true,
   "claudecode.theme": "dark",
   "claudecode.fontSize": 14,
