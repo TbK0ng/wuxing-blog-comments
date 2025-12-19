@@ -1,0 +1,26 @@
+{
+    "pre-commit": {
+        "script": "./scripts/pre-commit.sh",
+        "description": "Run automated checks before each commit",
+        "enabled": true,
+        "timeout": 60
+    },
+    "post-deploy": {
+        "script": "./scripts/post-deploy.sh",
+        "description": "Verify deployment success and run post-deployment checks",
+        "enabled": true,
+        "timeout": 300
+    },
+    "pre-push": {
+        "script": "./scripts/pre-push.sh",
+        "description": "Run full test suite and security scans before pushing",
+        "enabled": true,
+        "timeout": 180
+    },
+    "on-issue-create": {
+        "script": "./scripts/issue-handler.sh",
+        "description": "Automatically triage and assign new issues",
+        "enabled": false,
+        "timeout": 30
+    }
+}

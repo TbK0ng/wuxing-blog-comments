@@ -1,0 +1,36 @@
+{
+    "mcpServers": {
+        "github": {
+            "command": "npx",
+            "args": ["-y", "@modelcontextprotocol/server-github"],
+            "env": {
+                "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+            }
+        },
+        "filesystem": {
+            "command": "npx",
+            "args": ["-y", "@modelcontextprotocol/server-filesystem"],
+            "env": {
+                "ALLOWED_DIRECTORIES": "${PWD}"
+            }
+        },
+        "database": {
+            "command": "python",
+            "args": ["-m", "mcp_database_server"],
+            "env": {
+                "DATABASE_URL": "${DATABASE_URL}",
+                "DB_TYPE": "postgresql"
+            },
+            "disabled": true
+        },
+        "slack": {
+            "command": "node",
+            "args": ["./mcp-servers/slack-server.js"],
+            "env": {
+                "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
+                "SLACK_TEAM_ID": "${SLACK_TEAM_ID}"
+            },
+            "disabled": true
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "claudecode-plugin-template",
+    "displayName": "ClaudeCode Plugin Template",
+    "description": "A comprehensive template for creating ClaudeCode plugins with commands, agents, MCP servers, and hooks",
+    "version": "1.0.0",
+    "author": "大熊掌门",
+    "license": "MIT",
+    "repository": "https://github.com/MaesHughes/wuxing-blog-comments",
+    "keywords": ["claudecode", "plugin", "template", "workflow", "automation"],
+    "components": {
+        "commands": ["hello", "deploy", "status"],
+        "agents": ["code-reviewer", "task-manager"],
+        "mcpServers": ["github", "filesystem"],
+        "hooks": ["pre-commit", "post-deploy"]
+    },
+    "dependencies": {
+        "plugins": [],
+        "tools": ["git", "node", "docker"]
+    },
+    "configuration": {
+        "defaultSettings": {
+            "deployEnvironment": "staging",
+            "timeout": 300,
+            "enableNotifications": true,
+            "logLevel": "info"
+        },
+        "userConfigurable": [
+            "deployEnvironment",
+            "timeout",
+            "enableNotifications"
+        ]
+    },
+    "compatibility": {
+        "claudecode": ">=2.0.0",
+        "node": ">=16.0.0"
+    },
+    "contribution": {
+        "issues": "https://github.com/MaesHughes/wuxing-blog-comments/issues",
+        "discussions": "https://github.com/MaesHughes/wuxing-blog-comments/discussions"
+    }
+}
