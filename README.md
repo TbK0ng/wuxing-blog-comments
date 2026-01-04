@@ -4,17 +4,22 @@
 
 ## 📚 项目资源
 
-### ClaudeCode 教程系列
+### ClaudeCode 入门教程系列
 
 [wuxingcodes-claudecode2025/](wuxingcodes-claudecode2025/)
 
-第1课：30分钟快速上手ClaudeCode
-
-包含完整的安装脚本、配置模板和问题解决方案。
 
 ## 🔗 相关链接
 
 - 🌐 **个人博客**: [https://blog.wuxingcodes.com/](https://blog.wuxingcodes.com/)
+- 👥 **QQ交流群**: 592691479
+- 📱 **公众号**: 大熊掌门
+
+## 📖 获取完整资料
+
+关注公众号 **大熊掌门**，发送关键字 **`claudecode入门课件`**，即可获取完整的十二节课电子版PDF和课件资料。
+
+![资料截图](S0BpFgRPTD.png)
 
 ---
 
